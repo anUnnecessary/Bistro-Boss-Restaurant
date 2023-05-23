@@ -29,9 +29,7 @@ const OrderTab = ({ items }) => {
                             ></FoodCard>)
                         }
                     </div>
-
                 </SwiperSlide>
-
             </Swiper>
         </div>
     );
