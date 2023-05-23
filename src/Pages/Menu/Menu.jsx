@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import Cover from '../../Shared/Cover/Cover';
+import Cover from '../Shared/Cover/Cover';
 import menuImg from '../../assets/menu/menu-bg.png'
 import soupImg from '../../assets/menu/soup-bg.jpg'
 import saladImg from '../../assets/menu/salad-bg.jpg'
@@ -8,6 +8,7 @@ import dessertImg from '../../assets/menu/dessert-bg.jpeg'
 import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../Component/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
+
 
 
 
