@@ -3,7 +3,8 @@ import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-s
 import { AuthContext } from '../Provider/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+
 
 const Login = () => {
     const [disabled, setDisabled] = useState(true);
