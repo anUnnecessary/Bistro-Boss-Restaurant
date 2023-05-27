@@ -1,3 +1,4 @@
+import React from "react";
 import { Helmet } from "react-helmet-async";
 import { FaTrashAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
@@ -84,8 +85,6 @@ const MyCart = () => {
                                 </td>
                             </tr>)
                         }
-
-
                     </tbody>
                 </table>
             </div>
