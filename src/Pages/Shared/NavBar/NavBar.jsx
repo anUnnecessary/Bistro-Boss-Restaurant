@@ -1,7 +1,8 @@
 import { useContext } from "react";
+import { FaShoppingCart } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
-import { FaShoppingCart } from 'react-icons/fa';
+import useCart from "../../Hooks/useCart";
 
 
 const NavBar = () => {
@@ -13,10 +14,7 @@ const NavBar = () => {
             .then(() => { })
             .catch(error => console.log(error));
     }
-
-
-
-
+    
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/menu">Our Menu</Link></li>
@@ -32,7 +30,6 @@ const NavBar = () => {
         </li>
         {
             user ? <>
-                <span>{user?.displayName}</span>
                 <button onClick={handleLogOut} className="btn btn-ghost">LogOut</button>
             </> : <>
                 <li><Link to="/login">Login</Link></li>
