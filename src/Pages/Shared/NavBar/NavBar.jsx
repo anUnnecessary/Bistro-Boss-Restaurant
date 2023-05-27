@@ -6,6 +6,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext);
+    const [cart] = useCart();
 
     const handleLogOut = () => {
         logOut()

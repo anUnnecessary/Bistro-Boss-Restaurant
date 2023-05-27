@@ -2,8 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../Pages/Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router-dom";
-import useCart from "../../hooks/useCart";
-
+import useCart from "../../Pages/Hooks/useCart";
 
 
 const FoodCard = ({ item }) => {
