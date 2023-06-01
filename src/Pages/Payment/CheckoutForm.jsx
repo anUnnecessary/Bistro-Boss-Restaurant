@@ -94,10 +94,7 @@ const CheckoutForm = ({ cart, price }) => {
                     }
                 })
         }
-
-
     }
-
     return (
         <>
             <form className="w-2/3 m-8" onSubmit={handleSubmit}>
