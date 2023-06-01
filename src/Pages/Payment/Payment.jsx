@@ -1,8 +1,8 @@
 import { loadStripe } from "@stripe/stripe-js";
-import CheckoutForm from "./CheckoutForm";
 import { Elements } from "@stripe/react-stripe-js";
 import SectionTitle from "../../Component/SectionTitle/SectionTitle";
 import useCart from "../Hooks/useCart";
+import CheckoutForm from "./CheckoutForm";
 
 // TODO: provide publishable Key
 const stripePromise = loadStripe(import.meta.env.VITE_Payment_Gateway_PK);
