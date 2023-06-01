@@ -84,7 +84,6 @@ const ManageItems = () => {
                                 </td>
                             </tr>)
                         }
-
                     </tbody>
                 </table>
             </div>
